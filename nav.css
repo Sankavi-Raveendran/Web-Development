@@ -1,0 +1,90 @@
+.navbar_nav{
+    margin: 0;
+    padding: 0;
+}
+
+.main_nav{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(u.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar_nav{
+    width: 1600px;
+    height: 75px;
+    margin: auto;
+    background-color: black;
+}
+
+.icon_nav{
+    width: 200px;
+    float: left;
+    height: 60px;
+}
+
+.logo_nav{
+    color: #ff7200;
+    font-size: 29px;
+    font-family: Arial;
+    padding-left: 35px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu_nav{
+    width: 600px;
+    float: left;
+    height: 60px;
+}
+
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 42px;
+    margin-top: 14px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+.search_nav{
+    width: 300px;
+    float: left;
+    margin-left: 350px;
+}
+
+.srch_nav{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}

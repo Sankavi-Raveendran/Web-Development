@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+      #background {
+        text-align:center;
+        border: 50px solid black;;
+        padding: 15px;
+        background: #FE980F;
+        background-clip: border-box;
+        }
+        .card {
+          box-shadow: 0 4px 8px 0 #FE980F;
+          MAX-width: 300px;
+          margin: auto;
+          text-align: center;
+          font-family: arial;
+          color: white;
+        }
+
+        .price {
+          color: grey;
+          font-size: 15px;
+        }
+
+        .card button {
+          border: none;
+          outline: 0;
+          padding: 12px;
+          color: white;
+          background-color: #FE980F;;
+          text-align: center;
+          cursor: pointer;
+          width: 100%;
+          font-size: 18px;
+        }
+
+        .card button:hover {
+          opacity: 0.7;
+        }
+        .grid-container {
+          display: grid;
+          grid-column-gap: 100px;
+          grid-row-gap: 50px;
+          padding: 50px;
+        }
+        img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Travel Planner | RAD</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!--Navigation file link css-->
+  <link rel="stylesheet" href="nav.css">
+
+  <!--footer file link css-->
+  <link rel="stylesheet" href="footerstyle.css">
+
+</head>
+<body style="background-color:black;">
+  <!--Navigation bar start-->
+  <div class="navbar_nav">
+      <div class="icon_nav">
+          <h2 class="logo_nav"><b>RAD</b></h2>
+      </div>
+
+      <div class="menu_nav">
+          <ul>
+            <li><a href="/Users/kokulanthiyagarajah/Desktop/untitled folder 2/User profile.html">User Profile </a></li>
+            <li><a href="product.html">LAPTOPS</a></li>
+            
+          </ul>
+      </div>
+
+  </div>
+<!--Navigation bar end-->
+
+  <div id="background">
+    <h1 style="color:white;">Admin Panel</h1>
+  </div>
+
+
+<div class=" container-fluid">
+
+  <div class="row grid-container">
+    <div style="background-color: black;" class="card col ">
+
+        <img src="Profile_12.jpeg" alt="David" style="width:250px;height:235px;" >
+        <h4>David</h4>
+        <p class="price">LKR 96,760</p>
+        
+        <p><button>Veiw Profile</button></p>
+    </div>
+
+    <div style="background-color: black;"  class="card col ">
+        <img  src="Profile_1.jpeg" alt="John" style="width:250px;height:310px;" >
+        <h4>John</h4>
+        <p class="price">LKR 106,729 </p>
+        <p>Apple MacBook Air 13.3in LED Laptop Intel i5-5250U Dual Core 1.6GHz 4GB 128GB SSD Early 2015 - MJVE2LL/A (Renewed)  </p>
+        <p><button>Veiw Profile</button></p>
+   </div>
+   <div style="background-color: black;"  class="card col ">
+    <img src="Profile_2.jpeg" alt="Kevin" style="width:250px;height:230px;" >
+        <h4>Kevin</h4>
+        <p class="price">LKR 435,999</p>
+        <p>ASUS ZenBook Duo 14 UX482 14inch FHD NanoEdge Touch Display, Core i7-1195G7, GeForce MX450, 16GB RAM, 1TB SSD, ScreenPad Plus, Windows 11 Pro, WiFi 6E Celestial Blue, UX482EGR-XB74T</p>
+        <p><button>Veiw Profile</button></p>
+</div>
+<div style="background-color: black;"  class="card col ">
+    <img src="Profile_3.jpeg" alt="Michel" style="width:250px;height:260px;" >
+        <h4>Michel</h4>
+        <p class="price">LKR 159,344</p>
+        <p>Dell Inspiron 14 5402, 14 inch FHD Non-Touch Laptop - 11th Generation Intel Core i5-1135G7, 8GB DDR4 RAM, 512GB SSD, Intel Iris Xe Graphics, Windows 10 Home - Platinum Silver (Latest Model)</p>
+        <p><button>Veiw Profile</button></p>
+</div>
+  </div>
+
+
+
+  <div class="row grid-container">
+    <div style="background-color: black;"  class="card col ">
+
+        <img src="Profile_4.jpeg" alt="Lisha" style="width:250px;height:220px;" >
+        <h4>Lisha</h4>
+        <p class="price">LKR 406,014</p>
+        <p>ASUS VivoBook Pro 16X OLED Slim Laptop, 16inch WQUXGA 16:10 Display, AMD Ryzen 9 5900HX CPU, NVIDIA GeForce RTX 3050 Ti, 32GB RAM, 1TB SSD, Windows 11 Pro, 0°Black, M7600QE-XB99</p>
+        <p><button>Veiw Profile</button></p>
+    </div>
+
+    <div style="background-color: black;"  class="card col ">
+        <img src="Profile_5.jpeg" alt="Aaroon" style="width:250px;height:220px;" >
+        <h4>Aaroon</h4>
+        <p class="price">LKR 491,918</p>
+        <p>ASUS ProArt StudioBook 16 OLED Laptop, 16inch 3840x2400 OLED Display, Intel core i7, 32GB DDR4, 1TB PCIe SSD, Nvidia Geforce RTX 3060, Windows 11 Pro, H600HM-XB76, Star Black</p>
+        <p><button>Veiw Profile</button></p>
+   </div>
+   <div style="background-color: black;"  class="card col ">
+    <img src="Profile_6.jpeg" alt="Athwin" style="width:250px;height:345px;" >
+        <h4>Athwin</h4>
+        <p class="price">LKR 37,854</p>
+        <p>HP Chromebook 11A G8 A4/1.6 11 4GB 32GB CHRM SBY</p>
+        <p><button>Veiw Profile</button></p>
+</div>
+<div style="background-color: black;"  class="card col ">
+    <img src="Profile_7.jpeg" alt="Tony" style="width:250px;height:240px;" >
+        <h4>Tony</h4>
+        <p class="price">LKR 105,598</p>
+        <p>Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display, AMD Ryzen 3 3200U, Vega 3 Graphics, 4GB DDR4, 128GB SSD, Backlit Keyboard, Windows 10 in S Mode, A515-43-R19L, Silver</p>
+        <p><button>Veiw Profile</button></p>
+</div>
+  </div>
+
+
+  <div class="row grid-container">
+    <div style="background-color: black;"  class="card col ">
+
+        <img src="Profile_8.jpeg" alt="Kiara" style="width:250px;height:300px;" >
+        <h4>Kiara</h4>
+        <p class="price">LKR 129,408</p>
+        <p>HP 24" All-in-One Desktop, AMD Athlon Silver 3050U Processor, AMD Radeon Graphics, 8 GB RAM, 256 GB SSD, Windows 11 Home (24-dd0210, Snow White)</p>
+        <p><button>Veiw Profile</button></p>
+    </div>
+
+    <div style="background-color: black;"  class="card col ">
+        <img src="Profile_9.jpeg" alt="Karan" style="width:250px;height:330px;" >
+        <h4>Karan</h4>
+        <p class="price">LKR 185,118</p>
+        <p>Lenovo IdeaCentre AIO 3 AMD All-in-One Computer, 24" FHD Display, Ryzen 5 5500U, 16GB RAM, 512GB SSD, DVD RW Drive, Windows 11</p>
+        <p><button>Veiw Profile</button></p>
+   </div>
+   <div style="background-color: black;"  class="card col ">
+    <img src="Profile_10.jpeg" alt="Shea" style="width:250px;height:280px;" >
+        <h4>Shea</h4>
+        <p class="price">LKR 97,757</p>
+        <p>(Renewed) Lenovo ThinkCentre M810z All in One Desktop Computer PC, Intel Core i3-6100 3.70 GHz Processor, 8GB Ram, 256GB SSD, WiFi & Bluetooth, Keyboard Mouse, Win 10 Professional</p>
+        <p><button>Veiw Profile</button></p>
+</div>
+<div style="background-color: black;"  class="card col ">
+    <img src="Profile_11.jpeg" alt="Crylsy" style="width:250px;height:280px;" >
+        <h4>Crylsy</h4>
+        <p class="price">LKR 50,126</p>
+        <p>eXcelius All-in-One 24" Desktop Computer Refurbished PC, Intel Core i5-4590T 2.0 GHz Processor, 8 GB RAM, 256 GB SSD, WiFi, DVD RW Drive</p>
+        <p><button>Veiw Profile</button></p>
+</div>
+  </div>
+
+</div>
+<br/>
+<br/>
+
+<!--Footer section start-->
+<div class="footer">
+  <p>&copy; All rights reserved by <b>Tech Zone</b></p>
+</div>
+<!--footer section end-->
+</body>
+</html>

@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: black;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    background-color: black;
+    z-index: 10;
+    color: white;
+
+}
+
+img{
+  box-shadow: 0 4px 8px 0 #FE980F;
+}
+
+
+.bold{
+    font-size: 20px;
+}
+li{
+    padding: 5px;
+}
+.nav-link{
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+}
+.nav-link:hover{
+    border-bottom: 2px solid blue;
+    transition: .1s;
+
+}
+section{
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+/**HOME****/
+span{
+    color:orangered;
+    font-weight: bold;
+
+}
+p{
+    font-size: 18px;
+}
+h1{
+    font-size: 2rem;
+    font-weight: 300;
+}
+/**content img*****/
+ #content2 img{
+     width: 55rem;
+     height: 45rem;
+
+     border-radius: 10px;
+ }
+
+ /***card csss**/
+ .card img{
+
+    height: 200px;
+
+    transition: 1s;
+ }
+ .inner{
+     overflow: hidden;
+ }
+ .card img:hover{
+    transform: scale(1.5);
+    transition: 1s;
+ }
+
+
+
+
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #FE980F;
+}
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: red;
+}
+.footer-bottom p{
+    float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+ }
+ .footer-bottom p a{
+   color:#44bae8;
+   font-size: 16px;
+   text-decoration: none;
+ }
+ .footer-bottom span{
+     text-transform: uppercase;
+     opacity: .4;
+     font-weight: 200;
+ }
+
+ .card_design{
+   box-shadow: 0 4px 8px 0 #FE980F;
+   color: white;
+ }

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact us - Tech Zone</title>
+  <link rel="shortcut icon" href="contact.jpeg">
+  <link rel="stylesheet" href="contact_style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  <script src="datavali.js"> </script>
+
+<!--Navigation file link css-->
+<link rel="stylesheet" href="nav.css">
+
+<!--footer file link css-->
+<link rel="stylesheet" href="footerstyle.css">
+
+</head>
+<body>
+      <!--Navigation bar start-->
+      <div class="main_nav">
+  <div class="navbar_nav">
+    <div class="icon_nav">
+        <h2 class="logo_nav"><b>Tech Zone</b></h2>
+    </div>
+
+    <div class="menu_nav">
+        <ul>
+          <li><a href="web.html">HOME </a></li>
+          <li><a href="product.html">LAPTOPS</a></li>
+          <li><a href="services.html">SERVICES</a></li>
+          <li><a href="newcommers.html">NEWCOMERS</a></li>
+          <li><a href="checkout.html">CHECKOUT</a></li>
+          <li><a href="Parts and Acc.html">PARTS & ACCESSORIES</a></li>
+          <li><a href="blg.html">BLOG</a></li>
+          <li><a href="About.html">ABOUTUS</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+
+        </ul>
+    </div>
+
+</div>
+<!--Navigation bar end-->
+        <h1 style="margin-top:-550px; margin-left: 50px; color:orangered;"></h1>
+        <div class="contact-section">
+
+          <div class="contact-info">
+            <div class><i class="fas fa-map-marker-alt"></i>318, Unity Plaza, Colombo 04</div>
+            <div><i class="fas fa-envelope"></i>techzonemain@gmail.com</div>
+            <div><i class="fas fa-phone"></i>+94112222298</div>
+            <div><i class="fas fa-clock"></i>Mon - Fri 9:00 AM to 10:00 PM</div>
+          </div>
+
+          <div class="contact-form">
+            <h2 style ="color: #ff7200;">Contact Us</h2>
+
+            <div class="contact">
+            <form onsubmit="event.preventDefault(); validationForm()">
+
+              <input type="text" name="name" id="name" class="text-box" placeholder="Your Name" value="">
+              <span class="error"> </span>
+
+              <input type="text" name="email" id="email" class="text-box" placeholder="Your Email" value="">
+              <small class="error"> </small>
+
+             <div class="tel"> <input type="number" name="tel" id="tel" class="text-box" placeholder="Your Phone Number" value="">
+              <small class="error"> </small>
+             </div>
+
+              <textarea name="review" id="message" rows="3" placeholder="Your Message" value=""></textarea>
+              <small class="error"> </small>
+
+              <button style="background-color:#ff7200;" type="submit" name="submit" class="send-btn" value="Send">SEND</button>
+
+            </form>
+
+            </div>
+          </div>
+        </div>
+
+
+<!--Footer section start-->
+<div class="footer" style="padding-bottom: 0px;">
+  <p>&copy; All rights reserved by <b>Tech Zone</b></p>
+</div>
+<!--footer section end-->
+
+</body>
+</html>
